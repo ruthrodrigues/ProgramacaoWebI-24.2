@@ -1,0 +1,23 @@
+#link{
+    float: left;
+    width: 22.5%;
+    margin: 0 0 0 2.5;
+    background-color: rgb(219, 136, 198);
+}
+
+#main{
+    float: left;
+    width: 45%;
+    margin: 0 2.5%;
+    background-color: rgb(145, 199, 231);
+}
+#news{
+    float: left;
+    width: 22.5%;
+    margin: 0 2.5% 0 0;
+    background-color: rgb(144, 235, 152);
+}
+#footer{
+    clear:left;
+    background-color: rgb(133, 138, 138);
+}

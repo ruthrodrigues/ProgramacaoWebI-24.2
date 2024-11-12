@@ -1,0 +1,21 @@
+#wrapper{
+    width: 960px;
+    background-color: rgb(238, 211, 231);
+}
+#main{
+    float: left;
+    width: 650pox;
+    margin: 0 20px;
+    background-color: rgb(145, 199, 231);
+}
+#extras{
+    float: left;
+    width: 650px;
+    margin: 0 20px 0 0 ;
+    background-color: rgb(97, 212, 149);
+}
+#footer{
+    clear:left;
+    background-color:rgb(133, 138, 138);
+    
+}

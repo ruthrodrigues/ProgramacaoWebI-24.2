@@ -1,0 +1,35 @@
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(226, 195, 247);
+}
+
+#header{
+    margin: 0;
+    position: relative;
+}
+
+#main{
+    width: 520px  ;
+    position: absolute;
+    top: 20;
+    left: 220px;
+    margin: 0;
+    background-color: rgb(243, 151, 215);
+}
+#links{
+    width: 200px;
+    position: absolute;
+    top: 20;
+    left: 0;
+    margin: 0;
+    background-color: rgb(119, 204, 178);
+}
+#news{
+    width: 200px;
+    position: absolute;
+    top: 20;
+    right: 0;
+    margin: 0;
+    background-color: rgb(139, 201, 226);
+}
