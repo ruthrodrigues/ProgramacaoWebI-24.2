@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas da Vovó</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Receitas da Vovó</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#recipes">Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="bg-header text-white text-center py-5">
+        <h1>Bem-vindo ao site das Receitas da Vovó</h1>
+        <p>Descubra as receitas que têm gostinho de carinho!</p>
+    </header>
+
+    <div id="recipes" class="container my-5">
+        <h2 class="text-center mb-4">Nossas Receitas Populares</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/bolodecenoura.jpeg" class="card-img-top" alt="Receita 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolo de Cenoura</h5>
+                        <p class="card-text">Delicioso bolo de cenoura, perfeito para o café da tarde.</p>
+                        <a href="#" class="btn btn-danger">Ver Receita</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/paodequeijo.jpeg" class="card-img-top" alt="Receita 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Pão de Queijo</h5>
+                        <p class="card-text">Aquele pão de queijo quentinho que lembra a casa da vovó.</p>
+                        <a href="#" class="btn btn-danger">Ver Receita</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/chocolatequente.jpeg" class="card-img-top" alt="Receita 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Quente</h5>
+                        <p class="card-text">Uma bebida doce e quente para aquecer seu coração.</p>
+                        <a href="#" class="btn btn-danger">Ver Receita</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container my-5">
+        <h2 class="text-center mb-4">Sobre Nós</h2>
+        <p>Receitas da Vovó é um site dedicado a preservar e compartilhar as melhores receitas da nossa avó, com todo o carinho e tradição culinária. Aqui você encontra pratos simples e deliciosos, como os que ela fazia para a gente quando éramos pequenos.</p>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Tabela de Ingredientes da receita mais amada da vovó. (Chocolate Quente)</h2>
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Ingrediente</th>
+                    <th scope="col">Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Leite</td>
+                    <td>2 xícaras</td>
+                </tr>
+                <tr>
+                    <td>Chocolate em pó</td>
+                    <td>2 colheres de sopa</td>
+                </tr>
+                <tr>
+                    <td>Açúcar</td>
+                    <td>2 colheres de sopa</td>
+                </tr>
+                <tr>
+                    <td>Canela (opcional)</td>
+                    <td>A gosto</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="contact" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida ou sugestão? Fale com a gente!</p>
+            <a href="mailto:receitasdavovo@email.com" class="btn btn-primary">Enviar Email</a>
+        </div>
+    </div>
+
+    <footer class="bg-footer text-white text-center py-3">
+        <p>&copy; Receitas da Vovó.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
